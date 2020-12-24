@@ -26,7 +26,7 @@ class _HomePageState extends State<HomePage> {
     final _items = <BottomNavigationBarItem>[
       BottomNavigationBarItem(
           icon: Icon(Icons.fact_check_outlined), label: 'Tasks'),
-      BottomNavigationBarItem(icon: Icon(Icons.done), label: 'Tasks')
+      BottomNavigationBarItem(icon: Icon(Icons.done), label: 'Completed')
     ];
     return Scaffold(
       appBar: AppBar(
